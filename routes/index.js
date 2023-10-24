@@ -1,8 +1,10 @@
-const express = require('express')
+const indexRoute = require('express').Router()
+const path = require('path')
 
 // const notes = require()
-const app = express()
+indexRoute.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/assets/index.html'))
+})
 
-app.use()
 
-module.exports = app
+module.exports = indexRoute
