@@ -12,7 +12,16 @@
   - [Questions](#Questions)
 
   ## Screenshot
-  
+  Note Taker Home screen.
+  ![HomeScreen](./images/noteTakerStart.PNG)
+
+  ---
+  Creating a note before saving.
+  ![Before Save](./images/noteTakerBeforeSave.PNG)
+
+  ---
+  Creating a not after saving.
+  ![After Save](./images/noteTakerAfterSave.PNG)
 
   ## Installation
   After the application has been cloned, the next step is to run 'npm i' in the terminal. After that, run 'nodemon server.js' in the terminal and pull up the application on the browser at the designated localhost.
@@ -21,5 +30,5 @@
   As a user, you may want to write a note to look at later. This application is a great way to stay organized!
 
   ## Questions
-  Checkout my GitHub at clayguerrero
+  Checkout my GitHub at [clayguerrero](https://github.com/clayguerrero)
   You can reach out to me for more questions at claytondguerrero@gmail.com
